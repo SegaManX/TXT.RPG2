@@ -1,0 +1,26 @@
+Class(Character):
+
+leveling.h enum Classes
+startup.cpp classSetup() if (!booLeans[ClassSelected]), if (x > 0 && x < number of classes + 1), 
+leveling.cpp levelUp()
+
+item Suffix:
+
+items.h enum suffixEnchants
+items.cpp void suffix()
+
+Skill:
+
+leveling.h	enum SkillList
+			all skillarray sizes +1
+
+leveling.cpp	all skillarray sizes +1
+				void levelup skill switch add case
+
+startup.cpp	void skillSetup skill switch add case and adjust numbers 
+			also in 1 - x/ -1 - -x add 1
+			iif x > 0 && x < z else if x < 0 && x > -z add one to z
+
+inventory.cpp	void skillScreen skill switch add case and adjust numbers
+				also in 1 - x/ -1 - -x add 1
+				iif x > 0 && x < z else if x < 0 && x > -z add one to z

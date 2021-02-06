@@ -1,0 +1,21 @@
+Hello everyone!
+
+Today marks the first update in the beta phase - Beta 1.1
+
+In the past week I have added the new island of Gazeus, the ability to save in your houses,
+walking now costs stamina depending on the terrain and I have done some minor balancing changes to the enemy stats.
+
+The plan for next weeks update is mostly related to backend functions regarding locatins and some QoL changes.
+But I will also be adding the beg optiion to markets where you can get money for free but you might also lose hp.
+
+But after next week I will add another Island
+
+Open to suggestions for future islands, towns, creatures or any other features you would like to see added.
+Also if you find any bugs or balancing issues please report them.
+
+That's it for now, see you next week!
+
+PixCell.
+
+
+	

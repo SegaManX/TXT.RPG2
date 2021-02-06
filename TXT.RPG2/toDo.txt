@@ -1,0 +1,142 @@
+Bugs:
+
+after restarting some values stay the same over saves
+mb make a default save (mbe just put in config) with all start values for restart
+
+To DO Before Next Big Update:
+
+armour:
+-diff armour gives diff stats eg heavy - def med - hp/sta (mbe) Light - agi
+save games with different names enter on save as else last save name except for first save and on load
+
+music:
+-music "engine" e.g. location func has a music paramater
+-for now only 1 bg track looping
+
+Alnwick:
+-Madthrone
+-Dunkelland
+-End of Mateiga
+
+Stables
+Hunting
+Enchant Gear
+Port
+Advanced Classes
+
+v0.27
+5. Plan armour
+	- Divide				HP/sta	Agi		Def		%s
+		- Light armour -	30		60		10
+		- Medium armour -	33		34		33
+		- Heavy armour -	40		20		40
+	- Cosmetic armour - Charisma
+6. Add armour
+
+v0.28
+7. Add Stables
+	- Make time pass in animation while traveling kinda like sleep
+8. Add hunting
+	- Add waiting thingy like sleep also to the rest of the gather things
+9. Add enchanting gear
+	- random enchant
+	- price is relative to level 
+	- can reenchant for 1.5x usual price
+	- chance to give no enchant
+
+v0.29
+10. Add port
+	- For going to Next island (The 1st BIG one)
+11. Add Advanced Clases
+	- Lvl 20
+	- Lvl 45
+	- Lvl 75
+
+v0.30
+12. Add music in most places
+13. Add houses in all cities (make the darkcastle your house after clearing it also)
+
+v0.31
+14. save and config not xt but different name e.g. .cof or .sav 
+15. More stuff in config
+16. New file for tracking stuff across games
+17. New file with all base values for reset
+
+v0.32
+18. Save game custom names with default as save 
+19. version var just in case i need it for save compatibility or some shit
+20. start menu with title, new game, load game, tutorial, options, exit
+	options - sound volume,
+
+v0.33
+21. when items out of duribility remove 1 and reset if any left else if none left set all itemstats to 0
+22. Quest List in inventory w/ hints or description
+
+
+To test:
+
+
+To add:
+perception to see amount of enemies
+summon support both good and evil mbe make a refresh func that changes enemies also removes dead ones
+make duplicate items add together in invetory e.g. If you have 1x Level 3 Sword of Fire and 1x Level 3 Sword of Fire now you would have 2x Level 3 Sword of Fire(only if the durabilities are the sam aswell)
+special skill 1 class based 1 race based 1 selected others gained from doing stuff
+weapons - sword 1h and 2h, shield, dagger, hammer, axe, pickaxe, mace, 
+abilities gained from stats or skills like search cheap repairs multicast etc
+hunger and thirst based on days more extreme in different climate e.g. more thirst in desert more hunger in snow
+as you get hungrier you get an exponential stat penalty
+add Advanced classes
+
+add save compatibility from v1.0 divide arrays up so that the new values go after all the old ones in the save file
+honor score
+selling resources and items
+buying resources?
+skill navigation/pathfinding
+map and mapping skill
+branching story e.g. if you killed a character instead of saving them you don't get a quest later or have to do a quest differently
+get Spells from  magic schools of the correct type
+Crafting/Smithing System possible masterwork mbe
+add other items
+item prefixes
+item material modifier
+ally ai selector (auto, low hp, highHP, manual)
+find better way to test if spells unlocked by number maybe array
+tutorial
+add potions hp sta and temp boosts for stats
+add ascii art accesable in changeLocation
+race starting locations differ
+big islands unlock small islands and then have to collect smoething from all small islands to unlock next big island
+multiplayer trading sytem
+orc great hunt start quest
+elf learn magic
+dwarf smith great weapon
+crafting recipies
+class quests
+race quests
+enchanting +n like d&d
+
+Music:
+ play music with https://stackoverflow.com/questions/22253074/how-to-play-or-open-mp3-or-wav-sound-file-in-c-program
+ music https://www.youtube.com/playlist?list=PLwJjxqYuirCLkq42mGw4XKGQlpZSfxsYd 
+ https://youtu.be/ZLIlzVe-3Z8
+ https://youtu.be/c6V7DikfQ1E
+
+Maybe:
+divide the cities into districts
+multiplayer on same computer by saving to a file location name hp and sta
+\dot (poison, fire, etc.)
+/ Allies in fights (mbe plyr set if atk enemy with most hp or dmg or sta)
+| Temporary Boosts (mbe begginer boost based on diff)
+| Potion Price Change
+
+Notes / Ideas:
+Forest Island (druids, ents, elves etc)
+-Goblin Miners Looking For Gold
+Ice Island
+Skeleton Island
+-GrandLich
+Mage Island
+Boss Island - Volcano / Lava Island
+Steal ideas from clash royale and homm
+Vulcano Island With Dark Lord (2nd Gen)
+make every city give five levels on average in first island so advanced class would be at the very end of it

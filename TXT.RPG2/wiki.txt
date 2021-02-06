@@ -1,0 +1,199 @@
+Locations:
+
+Creatures:
+
+	Race:
+		Human:
+			Drunk:
+				Drunk
+					Locations:
+						HaltonCityTavern
+					Stats:
+						Hp - 5 + 1 * Difficulty
+						Dmg - 1 * Difficulty
+						Sta - 2
+						Speed -  
+						
+			Bandit:
+				Bandit
+					Locations:
+						HaltonCityTavern
+						Road1
+					Stats:
+						Hp - 20 + 2 * Difficulty
+						Dmg - 1 + 1 * Difficulty
+						Sta - 4
+						Speed - 
+
+				Bandit King
+					Locations:
+						BanditCave
+					Stats:
+						Hp - 50 + 3 * Difficulty
+						Dmg - 15 + 1 * Difficulty
+						Sta - 8
+						Speed - 
+
+			Pirate:
+				Old Pirate
+					Locations:
+						Road7
+					Stats:
+						Hp - 50 + 2 * Difficulty
+						Dmg - 25 + 3 * Difficulty
+						Sta - 6
+						Speed - 
+
+				Pirate
+					Locations:
+						Sea6
+					Stats:
+						Hp - 400 + 35 * Difficulty
+						Dmg - 100 + 10 * Difficulty
+						Sta - 20
+						Speed - 
+				
+				Big Pirate
+					Locations:
+						Sea6
+					Stats:
+						Hp - 800 + 50 * Difficulty
+						Dmg - 200 + 20 * Difficulty
+						Sta - 40
+						Speed - 
+				
+		Undead:
+			Shadow:
+				Shadow
+					Locations:
+						TarrinCityTavern
+						Cemetary
+					Stats:
+						Hp - 40 + 2 * Difficulty
+						Dmg - 25 + 2 * Difficulty
+						Sta - 4
+						Speed - 
+
+			Zombie:
+				Zombie
+					Locations:
+						TarrinCityTavern
+						Cemetary
+					Stats:
+						Hp - 60 + 2 * Difficulty
+						Dmg - 15 + 1 * Difficulty
+						Sta - 6
+						Speed - 
+
+			Skeleton:
+				Skeleton
+					Locations:
+						TarrinCityTavern
+						Cemetary
+					Stats:
+						Hp - 50 + 2 * Difficulty
+						Dmg - 20 + 1 * Difficulty
+						Sta - 5
+						Speed - 
+
+			Lich:
+				Lich
+					Locations:
+						Cemetary
+					Stats:
+						Hp - 100 + 10 * Difficulty
+						Dmg - 40 + 5 * Difficulty
+						Sta - 15
+						Speed - 
+
+		Barbaric:
+			Troll:
+				Troll
+					Locations:
+						MadthorneTavern
+					Stats:
+						Hp - 200 + 15 * Difficulty
+						Dmg - 43 + 3 * Difficulty
+						Sta - 13
+						Speed - 
+
+			Goblin:
+				Goblin
+					Locations:
+						MadthorneTavern
+					Stats:
+						Hp - 120 + 10 * Difficulty
+						Dmg - 50 + 7 * Difficulty
+						Sta - 9
+						Speed - 
+
+			Orc:
+				Orc
+					Locations:
+						MadthorneTavern
+					Stats:
+						Hp - 75 + 3 * Difficulty
+						Dmg - 30 + 3 * Difficulty
+						Sta - 8
+						Speed - 
+
+				Orc Knight
+					Locations:
+						MadthorneTavern
+					Stats:
+						Hp - 225 + 9 * Difficulty
+						Dmg - 60 + 6 * Difficulty
+						Sta - 10
+						Speed - 
+
+		Legendary:
+			Dragon:
+				Fire
+					Locations:
+						MadthorneTavern
+					Stats:
+						Hp - 1000 + 50 * Difficulty
+						Dmg - 150 + 10 * Difficulty
+						Sta - 25
+						Speed - 
+
+			Kraken:
+				Kraken Tentacle
+					Locations:
+						Sea
+					Stats:
+						Hp - 1000 + 75 * Difficulty
+						Dmg - 150 + 15 * Difficulty
+						Sta - 35
+						Speed - 
+
+		Dark Lord:
+			(1st Gen) Dark Lord
+					Locations:
+						Dark Castle
+					Stats:
+						Hp - 10000 + 500 * Difficulty
+						Dmg - 2000 + 200 * Difficulty
+						Sta - 100
+						Speed - 
+
+Affinity chart: https://docs.google.com/spreadsheets/d/1biFt7KR2Ye56-evkuCldGrZDDQbua5uZ0jlvBsWdi-Q/edit#gid=465674662
+
+
+
+Global var setup 
+- main.cpp
+- stats.h
+- save.cpp
+
+Terrain
+0 = City/Action
+1 = Road
+2 = Bad Road/Forest/Cemetary
+3 = Dark Road
+4 = Sea
+5 = Desert
+
+Gazeus
+- Caravans Trade with Scrap(loot), stables with gold
+- They only Connect to their own type of town

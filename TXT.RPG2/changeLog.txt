@@ -1,0 +1,55 @@
+v0.21 +
+- Added Time
+- Added Dodging
+
+v0.22 +
+- Added Spells
+- Fixed Many Bugs
+
+v0.23 +
+- Added Tarrin
+- Fixed Bugs
+
+v0.24 +
+- Added Potions
+- Added Hunger and Thirst
+- Fixed Bugs
+
+v0.25 +
+- Added Madthorne
+- Added Dunkelland
+- Fixed Bugs
+
+v0.26 +
+- Added Music
+
+v0.27
+5. Plan armour
+	- Divide				HP/sta	Agi		Def		%s
+		- Light armour -	30		60		10
+		- Medium armour -	33		34		33
+		- Heavy armour -	40		20		40
+	- Cosmetic armour - Charisma
+6. Add armour
+
+v0.28
+7. Add Stables
+	- Make time pass in animation while traveling kinda like sleep
+8. Add hunting
+	- Add waiting thingy like sleep also to the rest of the gather things
+9. Add enchanting gear
+	- random enchant
+	- price is relative to level 
+	- can reenchant for 1.5x usual price
+	- chance to give no enchant
+
+v0.29
+10. Add port
+	- For going to Next island (The 1st BIG one)
+11. Add Advanced Clases
+	- Lvl 20
+	- Lvl 45
+	- Lvl 75
+
+v0.30
+12. Add music in most places
