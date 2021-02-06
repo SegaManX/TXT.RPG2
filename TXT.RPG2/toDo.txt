@@ -30,6 +30,13 @@ v0.27
 		- Medium armour -	33		34		33
 		- Heavy armour -	40		20		40
 	- Cosmetic armour - Charisma
+	- Different materials give diff lvl mod e.g. wood lvl mod = 1, lvl 1 light wood armour = 0.3 hp/sta, 0.6 Agi, 0.1 Def, lvl 2 light wood armour = 0.6 hp/sta, 1.2 agi, 0.2 Def, and so on
+	- Armour res lvl mod:
+		Wood = 1
+		Iron = 3
+		Steel = 6
+		Adamantine = 20
+
 6. Add armour
 
 v0.28
