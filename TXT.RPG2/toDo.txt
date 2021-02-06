@@ -6,7 +6,6 @@ mb make a default save (mbe just put in config) with all start values for restar
 To DO Before Next Big Update:
 
 armour:
--diff armour gives diff stats eg heavy - def med - hp/sta (mbe) Light - agi
 save games with different names enter on save as else last save name except for first save and on load
 
 music:
